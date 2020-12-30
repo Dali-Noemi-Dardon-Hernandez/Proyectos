@@ -1,0 +1,56 @@
+
+background(76, 194, 230);
+
+var drawFish = function (centerX, centerY) {
+
+var bodyLength = 110;
+var bodyHeight = 70;
+var bodyColor = color(255, 144, 25);
+
+
+noStroke();
+fill(bodyColor);
+// body
+ellipse(centerX, centerY, bodyLength, bodyHeight);
+// tail
+var tailWidth = bodyLength/4;
+var tailHeight = bodyHeight/2;
+triangle(centerX-bodyLength/2, centerY,
+         centerX-bodyLength/2-tailWidth, centerY-tailHeight,
+         centerX-bodyLength/2-tailWidth, centerY+tailHeight);
+// eye
+fill(33, 33, 33);
+ellipse(centerX+bodyLength/4, centerY, bodyHeight/6, bodyHeight/5);
+      
+};
+
+//peces
+drawFish(150, 68);
+drawFish(100, 150);
+drawFish(200, 250);
+drawFish(100, 350);
+drawFish(320, 150);
+
+//piedritas
+fill(97, 38, 38);
+ellipse(184, 348, 50, 30);
+ellipse(22, 388, 30, 20);
+fill(30, 168, 30);
+ellipse(284, 365, 80, 40); 
+fill(131, 18, 148);
+ellipse(367, 315, 30, 20); 
+fill(77, 72, 72);
+ellipse(385, 381, 40, 30); 
+ellipse(33, 315, 40, 20);
+
+//borbujas
+fill(54, 127, 235);
+ellipse(50, 100, 20, 20);
+ellipse(211, 142, 30, 30);
+ellipse(100, 200, 25, 25);
+ellipse(270, 60, 20, 20);
+ellipse(320, 263, 30, 30);
+ellipse(373, 100, 30, 30);
+ellipse(184, 300, 30, 30);
+ellipse(342, 340, 15, 15);
+    
