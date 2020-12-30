@@ -1,0 +1,27 @@
+//En este proyecto se muestra un plato sencillo y la cena.
+Se usan figuras como rect(), ellipse() y triangle() para dibujar comida en el plato. 
+También fill() y stroke() para colorearlas. 
+
+background(176, 111, 14); // wooden table
+fill(255, 255, 255);
+ellipse(200, 200, 350, 350); // plate
+fill(255, 255, 255);
+ellipse(200, 200, 300, 300); 
+
+stroke(155, 38, 191);
+fill(250, 213, 236);
+rect(109, 114, 60, 95, 15);
+
+fill(252, 252, 197);
+stroke(245, 233, 0);
+ellipse(235, 120, 56, 81);
+ellipse(292, 183, 56, 81);
+
+fill(255, 153, 0);
+stroke(255, 30, 0);
+triangle(197, 338, 72, 266, 247, 190);
+fill(186, 31, 31);
+ellipse(194, 244, 25, 25);
+ellipse(138, 270, 25, 25);
+ellipse(189, 303, 25, 25);
+
