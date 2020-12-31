@@ -1,0 +1,55 @@
+
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Project: Event invite</title>
+        <style>
+         .story-title {
+            font-family: cursive;
+        }
+          h1 {
+              color:rgb(17, 48, 245);
+          }
+          
+         h2 {
+             color: rgb(195, 25, 204);
+         }
+          .story-title {
+            font-family: cursive;
+        }
+         h3 {
+             color: rgb(50, 0, 252);
+         }
+         h4 {
+              color: rgb(187, 15, 196);
+         }
+         li {
+             color: rgb(195, 25, 204);
+         }
+         
+        </style>
+    </head>
+    <body>
+       
+        <h1 class="story-title">FIESTA DE GRADUACIÓN EN LA PLAYA!!</h1>
+    
+        <h2 class="story-title">VEN Y DISFRUTA DE LA FIESTA AL MÁXIMO!</h2>
+        
+        <h3 class="story-title">No te la puedes perder, habrá muchas sorpresas!!
+            Además, ven a disfrutar del hermoso clima y de la maravillosa vista al mar.</h3>
+        <h4 class="story-title">Se llevarán a cabo los siguientes puntos:</h4>
+        <ul>
+            <li>BIENVENIDA</li>
+            <li>CENA</li>
+            <li>ENTREGA DE RECONOCIMIENTOS A LOS EGRESADOS</li>
+            <li>BAILE</li>
+            <li>REGALOS</li>
+            <li>Y MUCHO MÁS...</li>
+        </ul>
+        <h3 class="story-title">TE ESPERAMOS!!</h3>
+        
+         <img src= "https://www.kasandbox.org/programming-images/landscapes/beach-waves-at-sunset.png"  width="300"> >
+    </body>
+</html>
